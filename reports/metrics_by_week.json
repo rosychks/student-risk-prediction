@@ -1,0 +1,71 @@
+{
+  "week_4": {
+    "metrics": {
+      "logistic_regression": {
+        "roc_auc": 0.7296,
+        "pr_auc": 0.6543,
+        "recall_at_risk": 0.6543,
+        "precision_at_risk": 0.5664
+      },
+      "random_forest": {
+        "roc_auc": 0.7212,
+        "pr_auc": 0.638,
+        "recall_at_risk": 0.6678,
+        "precision_at_risk": 0.5641
+      },
+      "lightgbm": {
+        "roc_auc": 0.6943,
+        "pr_auc": 0.6185,
+        "recall_at_risk": 0.6172,
+        "precision_at_risk": 0.5455
+      }
+    },
+    "best_model": "logistic_regression"
+  },
+  "week_8": {
+    "metrics": {
+      "logistic_regression": {
+        "roc_auc": 0.7442,
+        "pr_auc": 0.6787,
+        "recall_at_risk": 0.6594,
+        "precision_at_risk": 0.5758
+      },
+      "random_forest": {
+        "roc_auc": 0.7433,
+        "pr_auc": 0.6734,
+        "recall_at_risk": 0.6678,
+        "precision_at_risk": 0.5698
+      },
+      "lightgbm": {
+        "roc_auc": 0.7255,
+        "pr_auc": 0.6664,
+        "recall_at_risk": 0.6391,
+        "precision_at_risk": 0.5615
+      }
+    },
+    "best_model": "logistic_regression"
+  },
+  "week_12": {
+    "metrics": {
+      "logistic_regression": {
+        "roc_auc": 0.7506,
+        "pr_auc": 0.6846,
+        "recall_at_risk": 0.661,
+        "precision_at_risk": 0.5851
+      },
+      "random_forest": {
+        "roc_auc": 0.7466,
+        "pr_auc": 0.6833,
+        "recall_at_risk": 0.6526,
+        "precision_at_risk": 0.5828
+      },
+      "lightgbm": {
+        "roc_auc": 0.7304,
+        "pr_auc": 0.6552,
+        "recall_at_risk": 0.6509,
+        "precision_at_risk": 0.5693
+      }
+    },
+    "best_model": "logistic_regression"
+  }
+}
